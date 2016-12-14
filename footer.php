@@ -3,8 +3,8 @@
   <div id="left-section">
     <img src="images/logo.png" alt="logo">
     <div class="social-media">
-      <a href="#"><img src="images/icons/fb.png" alt="Facebook Logo"></a>
-      <a href="#"><img src="images/icons/inst.png" alt="Instagram Logo"></a>
+      <a target="_blank" href="https://www.facebook.com/indulgentinfusions/"><img src="images/icons/fb.png" alt="Facebook Logo"></a>
+      <a target="_blank" href="https://www.instagram.com/indulgent_infusions/"><img src="images/icons/inst.png" alt="Instagram Logo"></a>
     </div>
   </div>
 

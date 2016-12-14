@@ -1,26 +1,9 @@
 <!doctype html>
-<html lang="ENG">
+<html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Indulgent Infusions</title>
-
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <!-- build:css styles/vendor.css -->
-  <!-- bower:css -->
-  <!-- endbower -->
-  <!-- endbuild -->
-
-  <!-- build:css styles/main.css -->
-  <link rel="stylesheet" href="styles/main.css">
-  <!-- endbuild -->
-
-</head>
-
+  <?php
+  require("head.php")
+  ?>
 
   <body>
     <!--[if lt IE 10]>
@@ -141,6 +124,7 @@
 
     <script src="scripts/js.cookie.js"></script>
     <script src="scripts/cart.js"></script>
+    <script src="scripts/main.js"></script>
 
     <!-- endbuild -->
   </body>
