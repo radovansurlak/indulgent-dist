@@ -31,9 +31,6 @@
   require("menu.php");
   ?>
 
-  <div id="form-test">
-
-
 
   <?php
 
@@ -47,29 +44,47 @@
   $pepermint= $_POST['pepermint'];
   $total= $_POST['total'];
 
-  $message .= "Hi there :) You have just received a new product order.\n\n";
-  $message .= "Here are the customer details: \n";
+  $message = "Hi there :) You have just received a new product order.\n\n";
+  $message .= "Here are the customer details: \n\n";
   $message .= "Name: ".$name."\n";
   $message .= "E-mail: ".$mail."\n";
-  $message .= "Phone number: ".$phone."\n\n\n";
+  $message .= "Phone number: ".$phone."\n\n";
   $message .= "Order details: \n\n";
   $message .= "Pumpkin spice quantity: ".$pumpkin."\n";
   $message .= "Vanilla quantity: ".$vanilla."\n";
   $message .= "Pepermint quantity: ".$pepermint."\n";
+  $message .= "Total price: ".$total." DKK"."\n\n";
+  if (!empty($prefers_phone) && !empty($prefers_mail))
+  {
+    $message .= $name." would like to be contacted by both phone and e-mail."."\n\n";
+  } else if (!empty($prefers_phone))
+  {
+    $message .= $name." prefers to be contacted by phone."."\n\n";
+  } else if (!empty($prefers_mail))
+  {
+    $message .= $name." prefers to be contacted by e-mail."."\n\n";
+  };
+  $message .= "Best regards,\n\n";
+  $message .= "www.indulgentinfusions.com :)";
+
+
+  echo $message;
 
 
 
-  mail('radovansurlak@gmail.com','New Product Order',$message);
+  mail("radovansurlak@gmail.com","New Product Order",$message);
 
-  echo $name . " " . $mail . " " . $phone;
-  echo $prefers_mail . " and " . $prefers_phone;
-  echo "pumpkin " . $pumpkin . "  vanilla " . $vanilla . " pepermint " . $pepermint;
-  echo "total: " . $total;
+  ?>
+
+  <section id="thank-you">
+    <div class="text-content">
+      <h1>Thank you for your support :)</h1>
+      <h2>We'll contact you as soon as possible ;)</h2>
+    </div>
+  </section>
 
 
-   ?>
 
-   </div>
 
 
 
@@ -103,6 +118,7 @@
 
     <script src="scripts/js.cookie.js"></script>
     <script src="scripts/cart.js"></script>
+    <script src="scripts/eat-all-cookies.js"></script>
 
     <!-- endbuild -->
   </body>

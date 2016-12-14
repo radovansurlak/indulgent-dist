@@ -1,3 +1,14 @@
+if (isNaN(parseInt(Cookies.get('pumpkin'))) || isNaN(parseInt(Cookies.get('vanilla'))) || isNaN(parseInt(Cookies.get('pepermint')))) {
+  console.log('cookie unset');
+  Cookies.set('pumpkin', 0);
+  Cookies.set('vanilla', 0);
+  Cookies.set('pepermint', 0);
+};
+
+if (!isNaN(Cookies.get('productSum'))) {
+  $('#cart-count').html(Cookies.get('productSum'));
+};
+
 $('#cart-count').html(Cookies.get('productSum'));
 
 var pumpkin = parseInt(Cookies.get('pumpkin'));

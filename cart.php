@@ -36,7 +36,7 @@
 
       <div class="product-bar" id="pumpkin-prod">
         <img src="images/cart_pumpkin.jpg" alt="Pumpkin body scrub image">
-        <h1>Pumpkin body scrub</h1>
+        <h1>Pumpkin body scrub - 150g</h1>
         <h2>80DKK</h2>
         <h4 class="minus">-</h4>
         <h3 id="pumpkin-quantity">1</h3>
@@ -45,7 +45,7 @@
 
       <div class="product-bar" id="vanilla-prod">
         <img src="images/cart_vanilla.jpg" alt="Vanilla body scrub image">
-        <h1>Vanilla body scrub</h1>
+        <h1>Vanilla body scrub - 150g</h1>
         <h2>80DKK</h2>
         <h4 class="minus">-</h4>
         <h3 id="vanilla-quantity">1</h3>
@@ -54,7 +54,7 @@
 
       <div class="product-bar" id="pepermint-prod">
         <img src="images/cart_pepermint.jpg" alt="Pepermint body scrub image">
-        <h1>Pepermint body scrub</h1>
+        <h1>Pepermint body scrub - 150g</h1>
         <h2>80DKK</h2>
         <h4 class="minus">-</h4>
         <h3 id="pepermint-quantity">1</h3>
@@ -76,30 +76,28 @@
         <form action="email.php" method="post">
           <div>
             <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name" />
+            <input type="text" id="name"  name="user_name" required="true">
           </div>
           <div>
             <label for="mail">E-mail:</label>
-            <input type="email" id="mail" name="user_mail" />
+            <input type="text" id="mail" required name="user_mail" required="true">
           </div>
           <div>
             <label for="phone">Phone:</label>
-            <input type="phone" id="phone" name="user_phone" />
+            <input type="text" id="phone" required name="user_phone" required="true">
           </div>
 
           <h3>I want to be contacted by</h3>
 
-          <input type="checkbox" name="phone" value="contact by phone">phone<br>
-          <input type="checkbox" name="mail" value="contact by mail" checked="checked">e-mail<br>
+          <input type="checkbox" name="phone" value="by phone">phone<br>
+          <input type="checkbox" name="mail" value="by mail" checked="checked">e-mail<br>
 
           <input type="hidden" name="pumpkin" id="form-pumpkin">
           <input type="hidden" name="vanilla" id="form-vanilla">
           <input type="hidden" name="pepermint" id="form-pepermint">
           <input type="hidden" name="total" id="form-total">
 
-          <div class="button">
-            <button type="submit">Place an order</button>
-          </div>
+          <button type="submit">Order now</button>
 
 
 
