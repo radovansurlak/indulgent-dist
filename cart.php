@@ -83,14 +83,14 @@
       <!--Text inputs-->
 
       <label for="name">Name:</label>
-      <input type="text" id="name"  name="user_name" required="true">
+      <input type="text" id="name"  name="user_name" required>
 
 
       <label for="mail">E-mail:</label>
-      <input type="text" id="mail" required name="user_mail" required="true">
+      <input type="text" id="mail" required name="user_mail" required>
 
       <label for="phone">Phone:</label>
-      <input type="text" id="phone" required name="user_phone" required="true">
+      <input type="text" id="phone" required name="user_phone" required>
 
       <!--End of inputs-->
 

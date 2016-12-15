@@ -3,7 +3,7 @@
       <li><a href="about.php">About</a></li>
       <li><a href="index.php#pumpkin">Products</a></li>
     </ul>
-    <div id="logo"><a href="index.php" ><img src="images/logo.png"></a></div>
+    <div id="logo"><a href="index.php" ><img src="images/logo.png" alt="Indulgent Infusions logo image"></a></div>
     <ul>
       <li><a target="_blank" href="http://www.indulgentinfusions.wordpress.com">Blog</a></li>
       <li><a class="scroll" href="#footer">Contact Us</a></li>

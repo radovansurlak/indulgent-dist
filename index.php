@@ -107,6 +107,7 @@
       </article>
 
       <img class="expand-arrow rotate" src="images/icons/down-arrow.png" alt="down arrow">
+    </div>
 
   </section>
 
