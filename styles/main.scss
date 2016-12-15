@@ -1,0 +1,563 @@
+// bower:scss
+// endbower
+
+//Importing Google Fonts
+@import url( 'https://fonts.googleapis.com/css?family=Raleway:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+//SASS variables
+$section-height: 60vw;
+$heading-font: 300 3vw Raleway, Arial, sans-serif;
+$subheading-font: 1.3vw/140% "Open Sans", Times, serif;
+$button-font: 500 1.5vw Raleway, Arial, sans-serif;
+$menu-height: 5vw;
+$menu-font: 500 1.2vw Raleway, Arial, sans-serif;
+$logo-height: 4vw;
+
+
+
+* {
+    outline: none;
+    user-select: none;
+    font-family: Raleway;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    text-decoration: none;
+    color: unset;
+}
+
+//General form styling
+
+form {
+    font: $menu-font;
+
+    input[type="text"] {
+        font: $menu-font;
+        border: 2px solid rgba(0,0,0,0.5);
+        padding: 0.5vw;
+        width: 18vw;
+        margin: 1vw 0;
+    }
+
+    h3 {
+        font: $menu-font;
+        margin-bottom: 0.5vw;
+    }
+
+    input[type="checkbox"] {
+        font-size: 1vw;
+        margin: 0.5vw;
+    }
+
+    button {
+        color: black;
+        width: 30%;
+        height: 4vw;
+        padding: 1vw;
+        background-color: rgba(255,255,255,0);
+        border: 2px solid black;
+        font: $button-font;
+        text-decoration: none;
+        cursor: pointer;
+        outline: none;
+        margin: 2vw 0 5vw;
+        transition: all 400ms;
+
+        &:hover {
+            background-color: rgba(0,0,0,0.2);
+        }
+
+        &:active {
+            transform: scale(0.9);
+        }
+    }
+}
+
+//Footer styling
+
+footer {
+    border-top: 2px solid black;
+    display: flex;
+    padding: 0.5vw;
+    height: 15vw;
+
+    //Small left section of the footer
+
+    #left-section {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-right: 2px solid black;
+
+        img[alt=logo] {
+            margin: 1vw;
+            height: 4vw;
+        }
+
+        .social-media {
+            padding: 1vw;
+            display: flex;
+            width: 50%;
+            justify-content: space-around;
+
+            img {
+                width: 4vw;
+                transition: all 250ms;
+
+                &:hover {
+                    transform: scale(0.9);
+                }
+            }
+        }
+    }
+
+    //Rest of the footer section
+
+    #right-section {
+        .icon {
+            width: 2.5vw;
+        }
+
+        .contact {
+            height: 100%;
+            margin-left: 2vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            div {
+                display: flex;
+                align-items: center;
+                line-height: 2vw;
+
+                h3 {
+                    font: $subheading-font;
+                    margin-left: 1vw;
+                }
+            }
+        }
+    }
+}
+
+//General styling of section
+
+section {
+    &:first-of-type {
+        padding-top: $menu-height;
+    }
+    background-size: cover;
+    background-repeat: none;
+    height: $section-height;
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 0 0 50px 20px rgba(255,255,255,0.1);
+    transition: all 700ms;
+
+    .text-content {
+        margin-top: 6vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        padding: 0 5%;
+        text-align: left;
+
+        h1 {
+            font: $heading-font;
+            text-transform: capitalize;
+            padding: 1vw 0;
+            width: 15ch;
+        }
+
+        h2 {
+            font: $subheading-font;
+            max-width: 70ch;
+            padding-bottom: 1vw;
+        }
+
+        h3 {
+            text-transform: capitalize;
+            font: $menu-font;
+            font-size: 1.5vw;
+            font-weight: 500;
+            margin-bottom: 0.75vw;
+        }
+
+        .ingredients {
+            display: none;
+            width: 50%;
+            padding-bottom: 0.2vw;
+            h2 {
+                width: 30ch;
+            }
+            h3 {
+                font: $subheading-font;
+                font-size: 1.2vw;
+            }
+        }
+
+        //Class triggered by jQuery to rotate .expand-arrow button
+
+        .rotate180 {
+            transform: rotate(180deg);
+        }
+
+        .expand-arrow {
+            cursor: pointer;
+            margin-top: -0.5vw;
+            width: 2.5vw;
+            height: 2.5vw;
+            padding: 0.25vw;
+            transition: all 250ms;
+            display: block;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+
+        //General button styling
+
+        button {
+            color: black;
+            width: 50%;
+            height: 4vw;
+            padding: 1vw;
+            background-color: rgba(255,255,255,0);
+            border: 2px solid black;
+            font: $button-font;
+            text-decoration: none;
+            cursor: pointer;
+            outline: none;
+            margin-bottom: 1vw;
+            transition: all 400ms;
+
+            //Hover effect
+
+            &:hover {
+                width: 60%;
+            }
+        }
+    }
+}
+
+
+//Individual section styling - generally used to change background images
+
+//Introductory section
+
+#intro {
+    background-image: url("../images/sections/xmas_products.jpg");
+
+    .text-content {
+        background: linear-gradient(white, rgba(255,255,255,0.3));
+        box-shadow: 0 0 50px 30px rgba(255,255,255,0.1);
+    }
+}
+
+//How to use body scrubs article section
+
+#how-to {
+    opacity: 0;
+    background-image: url("../images/sections/howto.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+//Pumpkin body scrub section
+
+#pumpkin {
+    background-image: url("../images/sections/pumpkin.jpg");
+}
+
+//Vanilla body scrub section
+
+#vanilla {
+    background-image: url("../images/sections/vanilla.jpg");
+}
+
+//Pepermint body scrub section
+
+#pepermint {
+    background-image: url("../images/sections/pepermint.jpg");
+}
+
+//Founders about section styling
+
+#megan-cath {
+    height: auto;
+    padding: 10vw 0 5vw;
+
+    article {
+        width: 50%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            margin-top: 2vw;
+            font: $heading-font;
+        }
+
+        p {
+            padding-top: 2vw;
+            font: $subheading-font;
+            width: 45ch;
+        }
+
+        img {
+            width: 30vw;
+            height: 30vw;
+            border-radius: 500px;
+        }
+    }
+}
+
+//Section styling of email.php
+
+#thank-you {
+    .text-content {
+        width: 35%;
+        background-color: rgba(255,255,255,0.5);
+        margin-top: 0;
+    }
+    background-image: url("../images/sections/thank-you.jpg");
+}
+
+//Both founders banner image section
+
+#about-banner {
+    background-image: url("../images/sections/cat_meg.jpg");
+    background-size: cover;
+    height: 40vw;
+}
+
+#story {
+    padding: 5vw 0;
+    flex-direction: column;
+    height: auto;
+
+    h1 {
+        text-align: center;
+        font: $heading-font;
+    }
+
+    article {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2vw 10vw;
+        text-align: left;
+        justify-content: space-around;
+
+        p {
+            padding-top: 1vw;
+            font: $subheading-font;
+            width: 40ch;
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 4vw;
+            width: 50%;
+        }
+    }
+}
+
+//Cart page styling
+
+#cart-section {
+    height: auto;
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10vw;
+    justify-content: center;
+
+    h1,
+    h2 {
+        width: 10vw;
+    }
+
+    form {
+        width: 100vw;
+
+        label {
+            display: block;
+            width: 10vw;
+        }
+    }
+
+    .labels {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    //Total price indicator styling
+
+    .total {
+        font: $menu-font;
+        padding: 1vw;
+        align-items: center;
+        margin-top: 2vw;
+        width: 30%;
+        margin-right: auto;
+        border: 5px solid rgba(0,0,0,0.2);
+        display: flex;
+        justify-content: flex-start;
+
+        span {
+            font-size: 1.2vw;
+            font-weight: 500;
+            margin-left: 0.2vw;
+        }
+    }
+
+    //Total price indicator styling
+
+    .contact {
+        padding: 2vw 0;
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+
+        h1 {
+            font: $menu-font;
+            font-size: 2vw;
+            width: 20vw;
+        }
+    }
+
+    //Styling of product quantity and pricing control bar
+
+    .product-bar {
+        width: 100%;
+        border: 1px solid rgba(0,0,0,0.2);
+        display: flex;
+        height: 10vw;
+        align-items: center;
+        justify-content: space-around;
+
+        h1 {
+            font-size: 1.5vw;
+        }
+
+        h2,
+        h3 {
+            font: $menu-font;
+            font-size: 1.5vw;
+        }
+
+        h3 {
+            width: 1vw;
+        }
+
+        h4 {
+            font-size: 3vw;
+            border-radius: 5px;
+            width: 4vw;
+            height: 4vw;
+            text-align: center;
+            line-height: 4vw;
+            background-color: rgba(0,0,0,0.1);
+            transition: all 250ms;
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgba(0,0,0,0.2);
+                transform: scale(0.9);
+            }
+
+            &:active {
+                transform: scale(0.7);
+            }
+        }
+
+        img {
+            height: 9vw;
+        }
+    }
+}
+
+
+//Menu / Navbar styling
+
+#menu {
+    position: fixed;
+    font: $menu-font;
+    font-weight: 300;
+    width: 100%;
+    height: $menu-height;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-left: 10vw;
+    box-shadow: 0 0 30px 5px rgba(0,0,0,0.2);
+    transition: all 500ms;
+
+    ul {
+        padding: 0 1vw;
+        width: auto;
+        display: flex;
+
+        &:hover li:not(:hover) {
+            color: rgba(0,0,0,0.4);
+        }
+
+        li {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-transform: uppercase;
+            padding: 0 1vw;
+            list-style: none;
+            transition: all 250ms;
+            border-bottom: 1px solid white;
+
+            &:hover {
+                &:not(:nth-of-type(4)) {
+                    box-sizing: content-box;
+                    border-bottom: 1px solid black;
+                }
+            }
+        }
+    }
+
+    #cart {
+        height: 2vw;
+        transition: all 250ms;
+
+        &:hover {
+            transform: scale(1.3);
+        }
+    }
+
+    #cart-count {
+        width: 1vw;
+        margin-left: -1.7vw;
+    }
+
+    #logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transition: all 250ms;
+
+        &:hover {
+            transform: scale(0.9);
+        }
+
+        img {
+            height: $logo-height;
+            transition: all 500ms;
+        }
+    }
+}

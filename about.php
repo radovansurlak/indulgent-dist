@@ -1,20 +1,16 @@
 <!doctype html>
 <html lang="en">
 
-  <!--Head HTML section required by PHP-->
 
   <?php
   require("php_require/head.php")
   ?>
-
-  <!---->
 
   <body>
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-  <!--Menu bar required by PHP-->
 
   <?php
   require("php_require/menu.php");

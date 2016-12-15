@@ -1,13 +1,9 @@
 <!doctype html>
 <html lang="en">
 
-  <!--Head HTML section required by PHP-->
-
   <?php
   require("php_require/head.php")
   ?>
-
-  <!---->
 
 
   <body>

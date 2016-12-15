@@ -15,6 +15,6 @@ $('#cart-count').html('');
 //Redirect to index.php after 6 seconds
 
 setTimeout(function () {
-  window.location = "index.php";
+  window.location = 'index.php';
 }, 6000);
 //# sourceMappingURL=eat-all-cookies.js.map
