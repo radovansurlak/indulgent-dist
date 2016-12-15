@@ -82,7 +82,7 @@ footer {
     border-top: 2px solid black;
     display: flex;
     padding: 0.5vw;
-    height: 15vw;
+    height: 13vw;
 
     //Small left section of the footer
 
@@ -118,6 +118,7 @@ footer {
     //Rest of the footer section
 
     #right-section {
+        height: 100%;
         .icon {
             width: 2.5vw;
         }
@@ -146,9 +147,6 @@ footer {
 //General styling of section
 
 section {
-    &:first-of-type {
-        padding-top: $menu-height;
-    }
     background-size: cover;
     background-repeat: none;
     height: $section-height;
@@ -263,10 +261,14 @@ section {
 
 #how-to {
     opacity: 0;
+    justify-content: flex-end;
     background-image: url("../images/sections/howto.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
+    h1 {
+        width: 100%;
+    }
 }
 
 //Pumpkin body scrub section
