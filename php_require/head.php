@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta name="description" content="Here you can find homemade, organic, natural and vegan bodyscrubs">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="body scrub, skincare, homemade, organic, vegan, beauty products">
+  <meta name="keywords" content="body scrub, skincare, homemade, organic, vegan, beauty products, dry skin">
   <title>Indulgent Infusions</title>
 
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
