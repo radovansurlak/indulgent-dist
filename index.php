@@ -27,7 +27,7 @@
     <div class="text-content">
       <h1>Stay Beautiful Naturally</h1>
       <h2>At Indulgent Infusions we believe that natural resources are the best. Going back to the teachings of our ancestors, it is believed to restore and rejuvenate your body and mind whilst enhancing the natural beauty of your skin. Our products are organic and cruelty free. Made with passion and powered by a mission to stay beautiful naturally.</h2>
-      <a href="#pumpkin"><button>explore our products</button></a>
+      <a class="scroll" href="#pumpkin"><button>explore our products</button></a>
     </div>
   </section>
 
