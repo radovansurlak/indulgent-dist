@@ -25,7 +25,7 @@
 
   <section id="intro">
     <div class="text-content">
-      <h1>Stay Beautiful Naturally</h1>
+      <h1>Stay Beautiful Naturally With Our homemade body scrubs</h1>
       <h2>At Indulgent Infusions we believe that natural resources are the best. Going back to the teachings of our ancestors, it is believed to restore and rejuvenate your body and mind whilst enhancing the natural beauty of your skin. Our products are organic and cruelty free. Made with passion and powered by a mission to stay beautiful naturally.</h2>
       <a class="scroll" href="#pumpkin"><button>explore our products</button></a>
     </div>
@@ -50,7 +50,7 @@
 
     <div class="text-content">
       <h1>Pumpkin spice body scrub</h1>
-      <h2>Perfect for all coffeelovers out there.... this sugarscrub is loaded with coffee and warm spiced to improve blood circulation and awaken tired and duff skin </h2>
+      <h2>Perfect for all coffee lovers out there. This sugarscrub is loaded with coffee and warm spiced to improve blood circulation and awaken tired and duff skin.</h2>
 
       <a href="cart.php"><button type="buy-now" name="button">buy now</button></a>
 
@@ -74,7 +74,7 @@
 
     <div class="text-content">
       <h1>Vanilla Cinnamon Body Scrub</h1>
-      <h2>If you have a sweet tooth, then this is perfect for you... This anti-oxidant rich scrub does not only leave you skin smooth but also smelling like a piece of a perfect cookie!</h2>
+      <h2>If you have a sweet tooth, then this is perfect for you... This anti-oxidant rich scrub does not only leave your skin smooth but also smelling like a piece of a perfect cookie!</h2>
       <a href="cart.php"><button type="buy-now" name="button">buy now</button></a>
       <h3>Ingredients</h3>
 
@@ -97,7 +97,7 @@
 
     <div class="text-content">
       <h1>Pepermint sugar body scrub</h1>
-      <h2>Tired legs? Let this peppermint infused scrub exfoliate your skin and sooth your tight muscles. Additionally the peppermint will help calm both your body and mind</h2>
+      <h2>Tired legs? Let this peppermint infused scrub exfoliate your skin and sooth your tight muscles. Additionally the peppermint will help to calm both your body and mind</h2>
       <a href="cart.php"><button type="buy-now" name="button">buy now</button></a>
       <h3>Ingredients</h3>
 
