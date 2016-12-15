@@ -1,9 +1,13 @@
 <!doctype html>
 <html lang="en">
 
+  <!--Head HTML section required by PHP-->
+
   <?php
-  require("head.php")
+  require("php_require/head.php")
   ?>
+
+  <!---->
 
 
   <body>
@@ -11,17 +15,29 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+  <!--Menu bar required by PHP-->
+
   <?php
-  require("menu.php")
+  require("php_require/index_menu.php")
   ?>
+
+  <!---->
+
+  <!--Body part, with all the content sections-->
+
+  <!--Introductory section-->
 
   <section id="intro">
     <div class="text-content">
-      <h1>Beauty made with love</h1>
-      <h2>Vexillologist cardigan enamel pin, mustache cred tacos forage kitsch post-ironic yuccie DIY freegan meditation. Humblebrag coloring book affogato cornhole, man bun wayfarers raclette skateboard chambray messenger bag. Migas affogato hashtag bicycle rights. Pork belly sartorial 8-bit waistcoat, bitters coloring book echo park everyday carry migas franzen lomo aesthetic intelligentsia. Tilde chia hot chicken single-origin coffee try-hard. Put a bird on it</h2>
+      <h1>Stay Beautiful Naturally</h1>
+      <h2>At Indulgent Infusions we believe that natural resources are the best. Going back to the teachings of our ancestors, it is believed to restore and rejuvenate your body and mind whilst enhancing the natural beauty of your skin. Our products are organic and cruelty free. Made with passion and powered by a mission to stay beautiful naturally.</h2>
       <a href="#pumpkin"><button>explore our products</button></a>
     </div>
   </section>
+
+  <!--End of section-->
+
+  <!--Introductory section-->
 
   <section id="how-to">
     <div class="text-content">
@@ -30,7 +46,12 @@
     </div>
   </section>
 
+  <!--End of section-->
+
+  <!--Pumpkin spice body scrub section-->
+
   <section id="pumpkin">
+
     <div class="text-content">
       <h1>Pumpkin spice body scrub</h1>
       <h2>Perfect for all coffeelovers out there.... this sugarscrub is loaded with coffee and warm spiced to improve blood circulation and awaken tired and duff skin </h2>
@@ -45,10 +66,13 @@
       </article>
 
       <img class="expand-arrow" src="images/icons/down-arrow.png" alt="down arrow">
-
     </div>
 
   </section>
+
+  <!--End of section-->
+
+  <!--Vanilla body scrub section-->
 
   <section id="vanilla">
 
@@ -69,8 +93,12 @@
 
   </section>
 
+  <!--End of section-->
+
+  <!--Pepermint body scrub section-->
 
   <section id="pepermint">
+
     <div class="text-content">
       <h1>Pepermint sugar body scrub</h1>
       <h2>Tired legs? Let this peppermint infused scrub exfoliate your skin and sooth your tight muscles. Additionally the peppermint will help calm both your body and mind</h2>
@@ -84,15 +112,15 @@
 
       <img class="expand-arrow rotate" src="images/icons/down-arrow.png" alt="down arrow">
 
-
-    </div>
-
-    </div>
-
   </section>
 
-  <?php require("footer.php") ?>
+  <!--End of section-->
 
+  <!--Footer required by PHP-->
+
+  <?php require("php_require/footer.php") ?>
+
+  <!--End of section-->
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -107,18 +135,25 @@
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
+
+    <!--jQuery CDN-->
+
     <script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
 
     <!-- endbower -->
     <!-- endbuild -->
 
+    <!--Scripts-->
+
     <!-- build:js scripts/main.js -->
     <script src="scripts/js.cookie.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="scripts/effects.js"></script>
     <script src="scripts/product-counting.js"></script>
     <!-- endbuild -->
+
+    <!--End of scripts-->
   </body>
 </html>
