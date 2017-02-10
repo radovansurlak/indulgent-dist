@@ -22,6 +22,45 @@
 
   <!--About section with description and portraits of the founders-->
 
+  <section id="story">
+
+    <h1>Our story</h1>
+
+    <article>
+      <p>
+        Coming from an Indian background I’ve always wondered why certain things are done the way they have been done. From the Sindoor on the forehead to the tradition of going around the Holy Basil tree every morning or the burning of incense sticks at home made me very curious.
+        I have always been hungry for knowledge and constantly asked the question “Why?”
+      </p>
+      <p>
+        Having many questions answered, I started my research on Ayurveda, which is the traditional Hindu system of medicine. I traveled and learned from family, friends and even strangers all the nuances of natural remedies the Indian traditions entail. Staying open-minded and inquisitive I continued my journey to gain understanding of the teachings that were discarded and forgotten by past generations.
+      </p>
+      <p>
+
+        Taking their knowledge and experiences into account, I started a period of trials and errors to find solutions to stay healthy naturally.
+        In Malaysia, I put effort into sharing my knowledge and helping people with natural remedies. My move to Denmark nevertheless strengthened my passion towards natural remedies and I plan to continue spreading the wisdom.
+        Meeting Megan was an eye opening experience.
+      </p>
+      <p>
+        I never thought that one could share so much in common while having just as many contrasting traits, which helped us overcome our weaknesses.
+        Our friendship and mutual passion for staying beautiful naturally, made us decide to embark on this wonderful journey towards spreading Mother Nature’s precious gifts of natural wellbeing through Indulgent Infusions.
+      </p>
+
+    </article>
+
+  </section>
+
+  <!--Welcome on board section-->
+
+  <section id="welcome-aboard">
+    <h1>
+      Welcome on board!<br>
+      We hope that you’ll join us on this journey towards staying healthy naturally!
+    </h1>
+  </section>
+
+  <!--End of section-->
+
+
   <section id="megan-cath">
 
     <!--Article about Megan-->
@@ -53,50 +92,9 @@
 
     <!--End of article-->
 
-    </section>
-
-  <!--End of section-->
-
-  <!--Section with a banner image of both founders-->
-
-  <section id="about-banner">
   </section>
 
   <!--End of section-->
-
-  <!--Storytelling section-->
-
-  <section id="story">
-
-    <h1>Our story</h1>
-
-    <article>
-      <p>Coming from an Indian background I’ve always wondered why certain things are done the way they have been done. From the Sindoor on the forehead to the tradition of going around the Holy Basil tree every morning or the burning of incense sticks at home made me very curious.
-      I have always been hungry for knowledge and constantly asked the question “Why?”
-      </p>
-      <p>
-      Having many questions answered, I started my research on Ayurveda, which is the traditional Hindu system of medicine. I traveled and learned from family, friends and even strangers all the nuances of natural remedies the Indian traditions entail. Staying open-minded and inquisitive I continued my journey to gain understanding of the teachings that were discarded and forgotten by past generations.
-      </p>
-      <p>
-      Taking their knowledge and experiences into account, I started a period of trials and errors to find solutions to stay healthy naturally.
-      In Malaysia, I put effort into sharing my knowledge and helping people with natural remedies. My move to Denmark nevertheless strengthened my passion towards natural remedies and I plan to continue spreading the wisdom.
-      Meeting Megan was an eye opening experience.
-      </p>
-      <p>
-      I never thought that one could share so much in common while having just as many contrasting traits, which helped us overcome our weaknesses.
-      Our friendship and mutual passion for staying beautiful naturally, made us decide to embark on this wonderful journey towards spreading Mother Nature’s precious gifts of natural wellbeing through Indulgent Infusions.
-      </p>
-
-      <h1>
-      Welcome on board!<br>
-      We hope that you’ll join us on this journey towards staying healthy naturally!
-      </h1>
-
-    </article>
-
-  </section>
-
-  <!--End of storytelling section-->
 
   <!--Footer required by PHP-->
 

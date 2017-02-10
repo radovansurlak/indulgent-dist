@@ -248,7 +248,7 @@ section {
 //Introductory section
 
 #intro {
-    background-image: url("../images/sections/xmas_products.jpg");
+    background-image: url("../images/sections/product-far.jpg");
 
     .text-content {
         background: linear-gradient(white, rgba(255,255,255,0.3));
@@ -292,11 +292,11 @@ section {
 
 #megan-cath {
     height: auto;
-    padding: 10vw 0 5vw;
+    padding: 3vw 4vw 7vw;
 
     article {
         width: 50%;
-        text-align: center;
+        text-align: justify;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -341,8 +341,12 @@ section {
 
 #story {
     padding: 5vw 0;
+    padding-top: 10vw;
     flex-direction: column;
     height: auto;
+    background-image: url("../images/sections/cat-meg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
 
     h1 {
         text-align: center;
@@ -351,16 +355,14 @@ section {
 
     article {
         width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        padding: 2vw 10vw;
+        padding: 1vw 5vw;
         text-align: left;
-        justify-content: space-around;
 
         p {
             padding-top: 1vw;
             font: $subheading-font;
-            width: 40ch;
+            font-size: 1.2vw;
+            width: 39%;
         }
 
         h1 {
@@ -369,6 +371,18 @@ section {
             width: 50%;
         }
     }
+}
+
+#welcome-aboard {
+    height: auto;
+    padding: 2vw 0;
+    text-align: center;
+    h1 {
+        font: $heading-font;
+        margin: 0 auto;
+        width: 30ch;
+    }
+
 }
 
 //Cart page styling
@@ -500,7 +514,6 @@ section {
     background-color: white;
     display: flex;
     justify-content: center;
-    padding-left: 10vw;
     box-shadow: 0 0 30px 5px rgba(0,0,0,0.2);
     transition: all 500ms;
 

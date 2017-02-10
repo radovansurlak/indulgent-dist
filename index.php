@@ -14,7 +14,7 @@
   <!--Menu bar required by PHP-->
 
   <?php
-  require("php_require/index_menu.php")
+  require("php_require/menu.php")
   ?>
 
   <!---->
@@ -27,7 +27,7 @@
     <div class="text-content">
       <h1>Stay Beautiful Naturally With Our homemade body scrubs</h1>
       <h2>At Indulgent Infusions we believe that natural resources are the best. Going back to the teachings of our ancestors, it is believed to restore and rejuvenate your body and mind whilst enhancing the natural beauty of your skin. Our products are organic and cruelty free. Made with passion and powered by a mission to stay beautiful naturally.</h2>
-      <a class="scroll" href="#pumpkin"><button>explore our products</button></a>
+      <a href="products.php"><button>explore our products</button></a>
     </div>
   </section>
 
@@ -40,75 +40,6 @@
         <h1>How to use body scrubs?</h1>
         <h2>Begin with wet skin in the shower—warm-to-hot water is ideal to soften the skin. Allow the shower to run for 5-10 minutes and let the warm water soften the skin and prepare for exfoliation.<br> Pause the running water while you exfoliate. Apply the sugar scrub in a circular motion. It is important to maintain a gentle pressure not to damage the skin. You can start wherever is most convenient and comfortable, whether this is from the feet up or from the arms down. Rinse it all off with lukewarm water. Don't scrub every day, avoid over-exfoliating by scrubbing just a couple times a week. If you have sensitive skin, consider a lighter touch.</h2>
     </div>
-  </section>
-
-  <!--End of section-->
-
-  <!--Pumpkin spice body scrub section-->
-
-  <section id="pumpkin">
-
-    <div class="text-content">
-      <h1>Pumpkin spice body scrub</h1>
-      <h2>Perfect for all coffee lovers out there. This sugarscrub is loaded with coffee and warm spiced to improve blood circulation and awaken tired and duff skin.</h2>
-
-      <a href="cart.php"><button type="buy-now" name="button">buy now</button></a>
-
-      <h3>Ingredients</h3>
-
-      <article class="ingredients">
-        <h2>All ingredients are 100% organic,<br>no added preservatives or chemicals.</h2>
-        <h3>coconut oil, sugar, coffee, spices, vitamin E oil, sweet almond oil</h3>
-      </article>
-
-      <img class="expand-arrow" src="images/icons/down-arrow.png" alt="down arrow">
-    </div>
-
-  </section>
-
-  <!--End of section-->
-
-  <!--Vanilla body scrub section-->
-
-  <section id="vanilla">
-
-    <div class="text-content">
-      <h1>Vanilla Cinnamon Body Scrub</h1>
-      <h2>If you have a sweet tooth, then this is perfect for you... This anti-oxidant rich scrub does not only leave your skin smooth but also smelling like a piece of a perfect cookie!</h2>
-      <a href="cart.php"><button type="buy-now" name="button">buy now</button></a>
-      <h3>Ingredients</h3>
-
-      <article class="ingredients">
-        <h2>All ingredients are 100% organic,<br>no added preservatives or chemicals.</h2>
-        <h3>Coconut oil, sugar, vitamin E oil, vanilla extract, sweet almond oil</h3>
-      </article>
-
-      <img class="expand-arrow" src="images/icons/down-arrow.png" alt="down arrow">
-
-    </div>
-
-  </section>
-
-  <!--End of section-->
-
-  <!--Pepermint body scrub section-->
-
-  <section id="pepermint">
-
-    <div class="text-content">
-      <h1>Pepermint sugar body scrub</h1>
-      <h2>Tired legs? Let this peppermint infused scrub exfoliate your skin and sooth your tight muscles. Additionally the peppermint will help to calm both your body and mind</h2>
-      <a href="cart.php"><button type="buy-now" name="button">buy now</button></a>
-      <h3>Ingredients</h3>
-
-      <article class="ingredients">
-        <h2>All ingredients are 100% organic,<br>no added preservatives or chemicals.</h2>
-        <h3>Coconut oil, sugar, peppermint extract, peppermint essential oil, sweet almond oil</h3>
-      </article>
-
-      <img class="expand-arrow rotate" src="images/icons/down-arrow.png" alt="down arrow">
-    </div>
-
   </section>
 
   <!--End of section-->
