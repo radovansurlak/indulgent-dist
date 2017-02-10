@@ -34,7 +34,7 @@ $logo-height: 4vw;
 form {
     font: $menu-font;
 
-    input[type="text"] {
+    input[type="text"], input[type="email"] {
         font: $menu-font;
         border: 2px solid rgba(0,0,0,0.5);
         padding: 0.5vw;
@@ -381,6 +381,66 @@ section {
         font: $heading-font;
         margin: 0 auto;
         width: 30ch;
+    }
+
+}
+
+//Contact page styling
+
+#contact {
+    height: auto;
+    #contact-text {
+        width: 60%;
+        padding: 13vw 10vw 5vw;
+        h1 {
+            font: $heading-font;
+            width: 21ch;
+        }
+        h2 {
+            padding: 2vw 0;
+            font: $subheading-font;
+            width: 90%;
+        }
+        h3 {
+            padding-top: 2vw;
+            &#email-sent {
+                font-size: 1.5vw;
+                transition: all 500ms;
+            }
+            &#email-sent.bigger {
+                font-size: 2vw;
+
+            }
+        }
+        h4 {
+            display: inline;
+        }
+        p {
+            padding: 0 1vw;
+            display: inline;
+        }
+    }
+    #contact-form {
+        padding-left: 5vw;
+        border-left: 2px solid rgba(0,0,0,0.3);
+        $form-width: 70%;
+        padding-top: 12vw;
+        width: 40%;
+        input {
+            display: block;
+            width: $form-width;
+        }
+        textarea {
+            width: $form-width;
+            border: 3px solid rgba(0,0,0,0.3);
+            padding: 0.5vw;
+            font: $subheading-font;
+
+        }
+        button {
+            display: block;
+            width: $form-width;
+        }
     }
 
 }

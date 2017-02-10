@@ -18,6 +18,40 @@
 
   <!---->
 
+  <section id="contact">
+
+    <article id="contact-text">
+      <h1>Do you have any questions or comments?</h1>
+      <h2>If you have any questions, please leave us a message. We will answer you within 2-3 days.</h2>
+      <h4>E-mail:</h4><p>hi@indulgentinfusions.com</p>
+
+      <h3 id="email-sent">
+        <?php
+          if(isset($_POST["message"])){
+            echo "E-mail was sent, thank you :)";
+          };
+        ?>
+      </h3>
+
+    </article>
+
+    <article id="contact-form">
+      <form class="" action="email.php" method="post">
+
+        <input type="text" name="name" placeholder="Name:">
+        <input type="email" name="email" placeholder="E-mail:">
+        <input type="text" name="subject" placeholder="Subject:">
+        <textarea name="text" rows="8" cols="80" placeholder="Message:"></textarea>
+
+        <button type="submit">send</button>
+
+      </form>
+    </article>
+
+
+
+  </section>
+
 
 
 

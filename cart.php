@@ -78,7 +78,7 @@
 
     <!--PHP form-->
 
-    <form action="email.php" method="post">
+    <form action="order.php" method="post">
 
       <!--Text inputs-->
 

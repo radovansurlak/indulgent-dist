@@ -46,4 +46,11 @@ $('.expand-arrow').click(function() {
     $(this).toggleClass('rotate180');
     $(this).siblings('article').slideToggle();
 });
+
+$(document).ready(function () {
+    $("#email-sent").toggleClass("bigger");
+    setTimeout(function(){$("#email-sent").toggleClass("bigger")},1000);
+
+});
+
 //# sourceMappingURL=effects.js.map

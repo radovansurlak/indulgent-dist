@@ -14,7 +14,7 @@
 
 form {
   font: 500 1.2vw Raleway, Arial, sans-serif; }
-  form input[type="text"] {
+  form input[type="text"], form input[type="email"] {
     font: 500 1.2vw Raleway, Arial, sans-serif;
     border: 2px solid rgba(0, 0, 0, 0.5);
     padding: 0.5vw;
@@ -244,6 +244,47 @@ section {
     font: 300 3vw Raleway, Arial, sans-serif;
     margin: 0 auto;
     width: 30ch; }
+
+#contact {
+  height: auto; }
+  #contact #contact-text {
+    width: 60%;
+    padding: 13vw 10vw 5vw; }
+    #contact #contact-text h1 {
+      font: 300 3vw Raleway, Arial, sans-serif;
+      width: 21ch; }
+    #contact #contact-text h2 {
+      padding: 2vw 0;
+      font: 1.3vw/140% "Open Sans", Times, serif;
+      width: 90%; }
+    #contact #contact-text h3 {
+      padding-top: 2vw; }
+      #contact #contact-text h3#email-sent {
+        font-size: 1.5vw;
+        transition: all 500ms; }
+      #contact #contact-text h3#email-sent.bigger {
+        font-size: 2vw; }
+    #contact #contact-text h4 {
+      display: inline; }
+    #contact #contact-text p {
+      padding: 0 1vw;
+      display: inline; }
+  #contact #contact-form {
+    padding-left: 5vw;
+    border-left: 2px solid rgba(0, 0, 0, 0.3);
+    padding-top: 12vw;
+    width: 40%; }
+    #contact #contact-form input {
+      display: block;
+      width: 70%; }
+    #contact #contact-form textarea {
+      width: 70%;
+      border: 3px solid rgba(0, 0, 0, 0.3);
+      padding: 0.5vw;
+      font: 1.3vw/140% "Open Sans", Times, serif; }
+    #contact #contact-form button {
+      display: block;
+      width: 70%; }
 
 #cart-section {
   height: auto;
