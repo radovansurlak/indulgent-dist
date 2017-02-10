@@ -11,7 +11,6 @@
   <div id="right-section">
     <div class="contact">
       <div><img class="icon" src="images/icons/mail.png" alt="Email icon"><h3>hi@indulgentinfusions.com</h3></div>
-      <div><img class="icon" src="images/icons/phone.png" alt="Phone icon"><h3>+4553920332</h3></div>
       <div><img class="icon" src="images/icons/map.png" alt="Map icon"><h3>Aarhus, Denmark</h3></div>
     </div>
   </div>

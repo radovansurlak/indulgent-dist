@@ -22,7 +22,7 @@
 
     <article id="contact-text">
       <h1>Do you have any questions or comments?</h1>
-      <h2>If you have any questions, please leave us a message. We will answer you within 2-3 days.</h2>
+      <h2>Leave us a message and we'll get back to you within 2-3 days</h2>
       <h4>E-mail:</h4><p>hi@indulgentinfusions.com</p>
 
       <h3 id="email-sent">

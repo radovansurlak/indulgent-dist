@@ -81,7 +81,7 @@ form {
 footer {
     display: flex;
     padding: 0.5vw;
-    height: 13vw;
+    height: 10vw;
 
     //Small left section of the footer
 
@@ -94,17 +94,17 @@ footer {
 
         img[alt=logo] {
             margin: 1vw;
-            height: 4vw;
+            height: 3.3vw;
         }
 
         .social-media {
-            padding: 1vw;
+            padding: 0.5 0 1vw;
             display: flex;
-            width: 50%;
+            width: 30%;
             justify-content: space-around;
 
             img {
-                width: 4vw;
+                width: 3vw;
                 transition: all 250ms;
 
                 &:hover {
@@ -118,12 +118,15 @@ footer {
 
     #right-section {
         height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         .icon {
             width: 2.5vw;
         }
 
         .contact {
-            height: 100%;
+            height: 80%;
             margin-left: 2vw;
             display: flex;
             flex-direction: column;
@@ -132,7 +135,6 @@ footer {
             div {
                 display: flex;
                 align-items: center;
-                line-height: 2vw;
 
                 h3 {
                     font: $subheading-font;
@@ -399,7 +401,7 @@ section {
         h2 {
             padding: 2vw 0;
             font: $subheading-font;
-            width: 90%;
+            width: 50%;
         }
         h3 {
             padding-top: 2vw;

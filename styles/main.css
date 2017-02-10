@@ -47,7 +47,7 @@ form {
 footer {
   display: flex;
   padding: 0.5vw;
-  height: 13vw; }
+  height: 10vw; }
   footer #left-section {
     width: 30%;
     display: flex;
@@ -56,31 +56,33 @@ footer {
     border-right: 2px solid rgba(0, 0, 0, 0.2); }
     footer #left-section img[alt=logo] {
       margin: 1vw;
-      height: 4vw; }
+      height: 3.3vw; }
     footer #left-section .social-media {
-      padding: 1vw;
+      padding: 0.5 0 1vw;
       display: flex;
-      width: 50%;
+      width: 30%;
       justify-content: space-around; }
       footer #left-section .social-media img {
-        width: 4vw;
+        width: 3vw;
         transition: all 250ms; }
         footer #left-section .social-media img:hover {
           transform: scale(0.9); }
   footer #right-section {
-    height: 100%; }
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
     footer #right-section .icon {
       width: 2.5vw; }
     footer #right-section .contact {
-      height: 100%;
+      height: 80%;
       margin-left: 2vw;
       display: flex;
       flex-direction: column;
       justify-content: space-around; }
       footer #right-section .contact div {
         display: flex;
-        align-items: center;
-        line-height: 2vw; }
+        align-items: center; }
         footer #right-section .contact div h3 {
           font: 1.3vw/140% "Open Sans", Times, serif;
           margin-left: 1vw; }
@@ -256,7 +258,7 @@ section {
     #contact #contact-text h2 {
       padding: 2vw 0;
       font: 1.3vw/140% "Open Sans", Times, serif;
-      width: 90%; }
+      width: 50%; }
     #contact #contact-text h3 {
       padding-top: 2vw; }
       #contact #contact-text h3#email-sent {
