@@ -38,7 +38,12 @@
   <section id="how-to">
     <div class="text-content">
         <h1>How to use body scrubs?</h1>
-        <h2>Begin with wet skin in the shower—warm-to-hot water is ideal to soften the skin. Allow the shower to run for 5-10 minutes and let the warm water soften the skin and prepare for exfoliation.<br> Pause the running water while you exfoliate. Apply the sugar scrub in a circular motion. It is important to maintain a gentle pressure not to damage the skin. You can start wherever is most convenient and comfortable, whether this is from the feet up or from the arms down. Rinse it all off with lukewarm water. Don't scrub every day, avoid over-exfoliating by scrubbing just a couple times a week. If you have sensitive skin, consider a lighter touch.</h2>
+        <ul>
+          <li>For the best results, use the scrub after a shower.</li>
+          <li>Spread a generous amount of scrub on your skin and very lightly massage in a circular motion, rinse of with warm water.</li>
+          <li>Your skin needs exfoliation at most 2 times a week.</li>
+          <li>Over scrubbing is highly not recommended.</li>
+        </ul>
     </div>
   </section>
 

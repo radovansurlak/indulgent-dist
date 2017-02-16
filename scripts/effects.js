@@ -2,6 +2,10 @@
 
 //Smooth scroll from anchors with class "scroll" to corresponding sections
 
+function toggleMenu () {
+    $("#resp-menu").slideToggle(300);
+}
+
 $(document).on('click', 'a.scroll', function(event) {
     event.preventDefault();
 
@@ -13,7 +17,7 @@ $(document).on('click', 'a.scroll', function(event) {
 //Resize menu bar after scroll using CSS transform()
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() >= 100) {
+    if ($(this).scrollTop() >= 100 && $(window).width() > 667) {
         $('#menu').css({
             'height': '3vw'
         });

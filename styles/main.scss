@@ -16,6 +16,8 @@ $logo-height: 4vw;
 
 
 
+
+
 * {
     outline: none;
     user-select: none;
@@ -270,6 +272,18 @@ section {
     h1 {
         width: 100%;
     }
+    .text-content {
+        background: rgba(255,255,255,0.6);
+    }
+    li {
+        list-style: none;
+        margin: 0.7vw 0;
+        font: $subheading-font;
+        background: url(../images/icons/sphere.png) no-repeat -0.17vw 0.33vw;
+        padding-left: 1.5vw;
+        background-size: 1.2vw;
+    }
+
 }
 
 //Pumpkin body scrub section
@@ -634,6 +648,89 @@ section {
         img {
             height: $logo-height;
             transition: all 500ms;
+        }
+    }
+}
+
+#faq {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 3vw;
+    align-items: center;
+
+    h1 {
+        padding-top: 10vw;
+        font: $heading-font;
+        font-size: 4vw;
+        margin-bottom: 2vw;
+    }
+    h2 {
+        text-align: center;
+        width: 30ch;
+        background: url(../images/icons/help.png) no-repeat 50% 0vw;
+
+        padding-top: 4vw;
+        background-size: 3vw;
+    }
+    p {
+
+        text-align: justify;
+        margin: 1vw 0 1vw;
+        font: $subheading-font;
+        font-size: 1.2vw;
+        width: 40ch;
+    }
+
+
+}
+
+
+//RESPONSIVE
+
+#menu-burger {
+    display: none;
+}
+
+#resp-menu {
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width : 667px)
+{
+
+    #menu ul li {
+        display: none;
+    }
+
+    #menu-burger {
+        display: block;
+        width: $menu-height;
+        height: $menu-height;
+        position: absolute;
+        left: 1vw;
+        z-index: 100;
+        background-image: url("../images/icons/burger.png");
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    #resp-menu {
+        padding: 3vw;
+        top: $menu-height;
+        background: white;
+        position: fixed;
+        text-transform: uppercase;
+        display: block;
+        width: 50%;
+        font: $heading-font;
+        & ul li {
+            list-style: none;
+            padding: 1vw 0;
         }
     }
 }
